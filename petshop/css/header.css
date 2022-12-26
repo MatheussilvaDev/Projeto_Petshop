@@ -41,23 +41,23 @@ header{
 .nav-bar a:hover{
     color: rgb(0, 110, 255);
 }
-.dropdown-menu{
+.menu-nav{
     position: sticky;
 }
-.dropdown-menu>ul{
+.menu-nav>ul{
     display: flex;
     justify-content: space-around;
     background-color: rgb(244, 242, 243);
     position: sticky;
 }
-.dropdown-menu ul li{
+.menu-nav ul li{
     list-style: none;
 }
-.dropdown-menu a{
+.menu-nav a{
     text-decoration: none;
     color: black;
 }
-.dropdown-menu a:hover{
+.menu-nav a:hover{
     color: rgb(0, 110, 255);
 }
 

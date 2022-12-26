@@ -1,8 +1,8 @@
-
-main{
+main {
     background-color: rgb(255, 253, 254);
 }
-.bloco-propaganda{
+
+.bloco-propaganda {
     display: flex;
     justify-content: end;
     background-image: url("../img/cachorro-leaocomprimida.jpg");
@@ -14,18 +14,20 @@ main{
     background-repeat: no-repeat;
     height: 570px;
     margin-bottom: 125px;
-    
+
 }
 
-.produtos-propaganda{
+.produtos-propaganda {
     margin-top: 130px;
     font-weight: 400;
     font-size: 30px;
 }
-.produtos-propaganda button{
+
+.produtos-propaganda button {
     cursor: pointer;
 }
-.btn-produtos{
+
+.btn-produtos {
     font-size: 20px;
     font-weight: bold;
     width: 500px;
@@ -38,154 +40,186 @@ main{
     padding-left: 15px;
     padding-right: 15px;
 }
-.bloco-texto{
+
+.bloco-texto {
     margin: 10px;
 }
-.departamentos hr{
+
+.departamentos hr {
     margin: 10px;
 }
-.departamentos{
+
+.departamentos {
     padding-top: 50px;
 }
-.departamentos-img{
+
+.departamentos-img {
     display: flex;
     justify-content: space-evenly;
 }
-.img-dog{
+
+.img-dog {
     box-sizing: border-box;
     border-radius: 50%;
-    background-color:  rgb(252, 241, 203);
+    background-color: rgb(252, 241, 203);
     width: 100px;
 }
-.img-cat{
+
+.img-cat {
     box-sizing: border-box;
     border-radius: 50%;
     background-color: rgb(252, 242, 236);
     width: 100px;
 }
-.img-ave{
+
+.img-ave {
     box-sizing: border-box;
     border-radius: 50%;
     background-color: rgb(227, 240, 214);
     width: 100px;
 }
-.img-peixe{
+
+.img-peixe {
     box-sizing: border-box;
     border-radius: 50%;
     background-color: rgb(226, 243, 252);
     width: 100px;
 }
-#destaque p{
+
+#destaque p {
     font-size: 20px;
     margin-left: 15px;
 }
-#destaque img{
+
+#destaque img {
     width: 30px;
 }
-#citacao{
+
+#citacao {
     font-size: 22px;
     color: rgb(0, 110, 255);
     font-weight: bold;
     text-align: right;
     margin-right: 100px;
 }
-#destaque{
+
+#destaque {
     margin-top: 100px;
     background-color: whitesmoke;
     box-sizing: border-box;
     box-shadow: 4px 3px 9px rgb(0 0 0 / 12%);
     height: 100px;
 }
-.layout{
+
+.layout {
     margin-left: 150px;
-    margin-right: 150px; 
+    margin-right: 150px;
     /* background-color: whitesmoke; */
 }
-.layout h1{
+
+.layout h1 {
     color: rgb(0, 110, 255);
-    
+
     font-weight: bolder;
 }
-.secao-cachorro{
+
+.secao-cachorro {
     margin-top: 50px;
 }
-.secao-cachorro>div{
-    background-color: whitesmoke; 
+
+.secao-cachorro>div {
+    background-color: whitesmoke;
 }
-.secao-cachorro>h1{
+
+.secao-cachorro>h1 {
     padding-bottom: 10px;
 }
-.secao{
+
+.secao {
     padding-top: 50px;
 }
+
 a {
     text-decoration: none;
     text-transform: uppercase;
 }
-.bloco-produtos{
+
+.bloco-produtos {
     display: flex;
-    width:calc(100%-300px);
+    width: calc(100%-300px);
     height: 440px;
     background-color: whitesmoke;
     justify-content: space-around;
 }
-.bloco-produtos>h2{
+
+.bloco-produtos>h2 {
     display: inline;
     background-color: whitesmoke;
     height: 10px;
 }
-#img-peixe3 img{
+
+#img-peixe3 img {
     width: 330px;
 }
-.produto{
+
+.produto {
     margin: 15px;
     color: black;
 }
-li{
+
+li {
     list-style-type: none;
 }
-.nome-preco{
+
+.nome-preco {
     margin-left: 20px;
 }
-.produtos{
-    margin-left:10px;
-    margin-right:10px;
-    
+
+.produtos {
+    margin-left: 10px;
+    margin-right: 10px;
+
 
 }
-.melhores-marcas h1{
+
+.melhores-marcas h1 {
     font-size: 50px;
     color: rgb(0, 110, 255);
     font-weight: bolder;
     text-align: center;
     border-bottom: 2px solid yellow;
 }
-.melhores-marcas{
+
+.melhores-marcas {
     margin-bottom: 200px;
 }
-.marcas{
+
+.marcas {
     /* display: grid;
     grid-template-columns: 120px 120px 120px;
     grid-template-rows: 1fr 1fr; */
     display: flex;
     justify-content: space-evenly;
 }
-.seu-pet{
+
+.seu-pet {
     margin-top: 100px;
     display: flex;
     justify-content: space-around;
     margin-bottom: 200px;
 }
-.seu-dog{
+
+.seu-dog {
     width: 510px;
     height: 306.19px;
     background-image: url(https://www.kelcopetcare.com.br/wp-content/themes/kelco_sage/dist/images/para-seu-cao_333c762e.png);
     background-position: left;
     box-sizing: border-box;
     border-radius: 25px;
-    
+
 }
-.seu-cat{
+
+.seu-cat {
     width: 510px;
     height: 306.19px;
     background-image: url(https://www.kelcopetcare.com.br/wp-content/themes/kelco_sage/dist/images/para-seu-gato_8fb58dbb.png);
@@ -193,7 +227,8 @@ li{
     box-sizing: border-box;
     border-radius: 25px;
 }
-.conheca{
+
+.conheca {
     display: flex;
     box-sizing: border-box;
     border-radius: 25px;
@@ -208,7 +243,8 @@ li{
     margin-left: 105px;
     margin-top: 35px;
 }
-.seu-dog h1{
+
+.seu-dog h1 {
     padding-top: 155px;
     color: white;
     font-weight: bolder;
@@ -216,7 +252,8 @@ li{
     text-align: center;
     align-items: center;
 }
-.seu-cat h1{
+
+.seu-cat h1 {
     padding-top: 155px;
     color: white;
     font-weight: bolder;
@@ -224,20 +261,22 @@ li{
     text-align: center;
     align-items: center;
 }
-.contato img{
+
+.contato img {
     width: 50px;
 }
-.contato{
+
+.contato {
     display: block;
 }
 
-.img-loja img{
+.img-loja img {
     /* padding-right: 200px; */
     width: 126px;
     height: 300px;
 }
 
-.diferenciais{
+.diferenciais {
     /* display: flex;
     justify-content: space-around; */
     display: grid;
@@ -245,66 +284,67 @@ li{
     grid-template-columns: 1fr 1fr 1fr;
     margin: 50px;
 }
-.diferenciais span{
+
+.diferenciais span {
     color: rgb(0, 110, 255);
     font-weight: 400;
 }
-.d1{
+
+.d1 {
     padding: 50px;
     box-sizing: border-box;
     box-shadow: 4px 3px 9px rgb(0 0 0 / 12%);
 }
-.d2{
-    
-    margin-left:25px;
-    margin-right:25px;
+
+.d2 {
+
+    margin-left: 25px;
+    margin-right: 25px;
     padding: 50px;
     box-sizing: border-box;
     box-shadow: 4px 3px 9px rgb(0 0 0 / 12%);
 }
-.d3{
+
+.d3 {
     padding: 50px;
     box-sizing: border-box;
     box-shadow: 4px 3px 9px rgb(0 0 0 / 12%);
-    
 
 
+
 }
-.d1:hover{
-    -webkit-transform: scale(0.5);
-        -ms-transform: scale(0.5);
-        transform: scale(1.1);
-    box-sizing: border-box;
-    box-shadow: 4px 3px 9px rgb(0 0 0 / 12%);
-    transition: all 0.4s;
-}
-.d2:hover{
-    -webkit-transform: scale(0.5);
-        -ms-transform: scale(0.5);
-        transform: scale(1.1);
+
+.d1:hover {
+
+    transform: scale(1.1);
     box-sizing: border-box;
     box-shadow: 4px 3px 9px rgb(0 0 0 / 12%);
     transition: 0.4s;
 }
-.d3:hover{
-    -webkit-transform: scale(0.5);
-        -ms-transform: scale(0.5);
-        transform: scale(1.1);
+
+.d2:hover {
+    
+    transform: scale(1.1);
     box-sizing: border-box;
     box-shadow: 4px 3px 9px rgb(0 0 0 / 12%);
     transition: 0.4s;
 }
-#promocao{
+
+.d3:hover {
+    transform: scale(1.1);
+    box-sizing: border-box;
+    box-shadow: 4px 3px 9px rgb(0 0 0 / 12%);
+    transition: 0.4s;
+}
+
+#promocao {
     padding-top: 25px;
     padding-bottom: 25px;
     margin-top: 100px;
 }
-/* #promocao hr{
-    display: inline-block;
-    width: 100px;
-    text-align: center;
-} */
-#promocao>h1{
+
+
+#promocao>h1 {
     font-size: 50px;
     font-weight: bolder;
     margin: 30px;
@@ -312,9 +352,10 @@ li{
     font-weight: 600;
     color: rgb(0, 101, 233);
     border-bottom: 2px solid yellow;
-    
+
 }
-.footer{
+
+.footer {
     display: flex;
     justify-content: space-evenly;
     padding-top: 25px;
@@ -323,26 +364,31 @@ li{
     height: 300px;
     border-top: 2px solid rgba(0, 101, 233, 0.322);
 }
-.produtos-promocao{
+
+.produtos-promocao {
     display: flex;
     justify-content: space-around;
 }
-.produto img{
+
+.produto img {
     width: 300px;
 
 }
-.preco-riscado{
+
+.preco-riscado {
     display: inline;
     margin: 10px;
     text-decoration: line-through;
 
 }
-.desconto10{
+
+.desconto10 {
     display: flex;
     justify-content: center;
-    
+
 }
-.caixa-desconto{
+
+.caixa-desconto {
     display: flex;
     border: 1px solid yellow;
     border-radius: 5px;
@@ -351,70 +397,80 @@ li{
     margin-top: 50px;
     margin-bottom: 150px;
 }
-.bloco-desconto1{
+
+.bloco-desconto1 {
     display: inline-block;
     font-size: 40px;
-    
-    
+
+
 }
-.divisor-vertical{
+
+.divisor-vertical {
     height: 40px;
     width: 5px;
     border-left: 1px solid rgb(226, 226, 226);
     margin: 10px;
 }
-.bloco-desconto1 span{
+
+.bloco-desconto1 span {
     color: rgb(0, 110, 255);
     font-family: 'Fredoka One', cursive;
     font-size: 45px;
-    
+
     /* text-decoration: underline; */
 }
-.texto2{
+
+.texto2 {
     font-size: 20px;
     font-weight: bold;
     padding-right: 10px;
     color: rgb(0, 110, 255);
-    
+
 }
-.texto2 span{
+
+.texto2 span {
     font-size: 17px;
     font-weight: lighter;
 }
-.cupom{
+
+.cupom {
     color: rgb(0, 110, 255);
     font-family: 'Fredoka One', cursive;
     font-size: 45px;
     box-sizing: border-box;
     border-style: dashed;
 }
-.bloco-desconto2{
+
+.bloco-desconto2 {
     display: flex;
 }
-.bloco-adocao{
+
+.bloco-adocao {
     display: flex;
     justify-content: end;
     background-image: url("../img/foto-adocao2.jpg");
     background-color: rgb(246, 251, 254)rgb(246, 251, 254);
-    background-position: right center ;
+    background-position: right center;
     /* background-attachment: fixed; */
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     height: 570px;
     margin-bottom: 125px;
-    
+
 }
 
-.adocao-propaganda{
+.adocao-propaganda {
     padding-top: 130px;
     font-weight: 400;
     font-size: 30px;
 }
-.adocao-propaganda button{
+
+.adocao-propaganda button {
     cursor: pointer;
 }
-.btn-adocao{
+
+.btn-adocao {
     font-size: 20px;
     font-weight: bold;
     width: 500px;
@@ -422,19 +478,22 @@ li{
     border-radius: 5px;
     background-color: rgb(0, 110, 255);
     color: white;
-    
+
     padding: 5px;
     padding-left: 15px;
     padding-right: 15px;
 }
-.img-produto{
+
+.img-produto {
     margin-left: 50px;
 }
-.descricao{
+
+.descricao {
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.preco-fechar button{
+
+.preco-fechar button {
     background-color: rgb(0, 110, 255);
     color: white;
     font-size: 25px;
@@ -442,7 +501,8 @@ li{
     font-weight: bolder;
     border: none;
 }
-.desconto{
+
+.desconto {
     background-color: rgb(0, 110, 255);
     font-family: 'Fredoka One', cursive;
     color: white;
@@ -452,25 +512,28 @@ li{
     margin: 15px;
 
 }
-#preco{
+
+#preco {
     font-size: 25px;
     font-weight: bold;
     margin: 7px;
 }
-.img-produto img{
+
+.img-produto img {
     width: 450px;
 }
 
-.fechar-produto{
+.fechar-produto {
     display: flex;
     padding: 20px;
     padding-top: 30px;
 }
-.info-produto{
+
+.info-produto {
     margin-left: 150px;
 }
 
-.principal{
+.principal {
     width: auto;
     height: 500px;
     background-color: whitesmoke;
@@ -492,22 +555,26 @@ li{
     }
 } */
 
-@media (max-width: 1050px){
-    .bloco-propaganda{
+@media (max-width: 1050px) {
+    .bloco-propaganda {
         height: 430px;
-        }
-        .bloco-adocao{
-            height: 430px;
-            }
-}@media (max-width: 920px){
-    .bloco-propaganda{
+    }
+
+    .bloco-adocao {
+        height: 430px;
+    }
+}
+
+@media (max-width: 920px) {
+    .bloco-propaganda {
         height: 300px;
         background-size: cover;
         background-position: left;
         justify-content: space-between;
         align-items: center;
 
-        }
+    }
+
     .produtos-propaganda {
         margin-top: 1px;
         box-sizing: border-box;
@@ -517,16 +584,18 @@ li{
         color: white;
         margin-left: 5px;
     }
-    .bloco-adocao{
+
+    .bloco-adocao {
         background-size: cover;
         background-position: left;
         justify-content: space-between;
         align-items: center;
         height: 300px;
-    
+
     }
+
     .adocao-propaganda {
-       
+
         box-sizing: border-box;
         background-color: rgba(0, 0, 0, 0.411);
         padding-left: 5px;
@@ -534,33 +603,39 @@ li{
         color: white;
         margin-left: 5px;
         padding-top: 38px;
-        
-}
-.btn-adocao{
-    margin-left: 5px;
-}
-.btn-produtos {
-    /* width: 400px; */
-    margin-left: 3px;
-}
+
+    }
+
+    .btn-adocao {
+        margin-left: 5px;
+    }
+
+    .btn-produtos {
+        /* width: 400px; */
+        margin-left: 3px;
+    }
 
 }
-@media (max-width:733px){
-    .caixa-desconto{
+
+@media (max-width:733px) {
+    .caixa-desconto {
         flex-direction: column;
-       
+
     }
-    .divisor-vertical{
+
+    .divisor-vertical {
         display: none;
     }
 }
-@media (max-width:579px){
-    .bloco-desconto2{
-        display:block;
+
+@media (max-width:579px) {
+    .bloco-desconto2 {
+        display: block;
         text-align: justify;
     }
 }
-@media (max-width:640px){
+
+@media (max-width:640px) {
     .diferenciais {
         display: grid;
         text-align: center;
@@ -568,16 +643,19 @@ li{
         margin: 50px;
         grid-template-rows: 1fr 1fr;
     }
-    .d1{
-        padding:30px;
+
+    .d1 {
+        padding: 30px;
         padding-top: 50px;
     }
-    .d2{
-        padding:30px;
+
+    .d2 {
+        padding: 30px;
         padding-top: 50px;
     }
-    .d3{
-        padding:30px;
+
+    .d3 {
+        padding: 30px;
         padding-top: 50px;
         grid-column: 1/3;
         margin-left: 25%;
