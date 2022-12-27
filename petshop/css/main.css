@@ -208,7 +208,9 @@ li {
     justify-content: space-around;
     margin-bottom: 200px;
 }
-
+.seu-pet>.conheca{
+    display: none;
+}
 .seu-dog {
     width: 510px;
     height: 306.19px;
@@ -338,6 +340,7 @@ li {
 }
 
 #promocao {
+    
     padding-top: 25px;
     padding-bottom: 25px;
     margin-top: 100px;
@@ -364,10 +367,20 @@ li {
     height: 300px;
     border-top: 2px solid rgba(0, 101, 233, 0.322);
 }
-
+.carousel{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* overflow-x: hidden; */
+    
+}
 .produtos-promocao {
     display: flex;
+    width: 100%;
     justify-content: space-around;
+}
+.btn-promocao{
+    display: none;
 }
 
 .produto img {
@@ -542,18 +555,7 @@ li {
 }
 
 
-/* @media (min-width: 920px) {
-    .bloco-propaganda{
-        height: 306px;
-        }
-        .btn-produtos {
-            width: 351px;
-        }
-        
-    .produtos-propaganda{
-        padding-top: 42px;
-    }
-} */
+
 
 @media (max-width: 1050px) {
     .bloco-propaganda {
@@ -634,7 +636,71 @@ li {
         text-align: justify;
     }
 }
-
+@media (max-width: 1032px){
+    @keyframes pet {
+        to{
+            background-image:url(https://www.kelcopetcare.com.br/wp-content/themes/kelco_sage/dist/images/para-seu-cao_333c762e.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        from{
+            background-image:url(https://www.kelcopetcare.com.br/wp-content/themes/kelco_sage/dist/images/para-seu-gato_8fb58dbb.png);
+            background-size: cover;
+            background-position: right;
+            background-repeat: no-repeat;
+        }
+    }
+    .seu-pet{
+        animation: pet 5s infinite alternate;
+        transform: translateX(10%);
+        width: 80vw;
+        height: 350px;
+        border-radius: 25px;
+        background-color: whitesmoke;
+        margin-top: 250px;
+        position: relative;
+    }
+    .seu-pet>.conheca{
+        display: block;
+        position: absolute;
+        width: 50%;
+        height: 20%;
+        bottom: 10%;
+        right: 5%;
+        font-size: 100%;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .seu-cat{
+        display: none;
+    }
+    .seu-dog{
+        display: none;
+    }
+    @keyframes carousel {
+        to{
+            transform: translateX(75%);
+        }
+    }
+    .carousel{
+        overflow-x: hidden;
+    }
+    .produtos-promocao{
+        display: flex;
+        
+        
+        
+    }
+    .btn-promocao{
+        display: block;
+        width: 8%;
+        height: 8%;
+        cursor: pointer;
+        margin: 5px;
+    }
+    
+}
 @media (max-width:640px) {
     .diferenciais {
         display: grid;
