@@ -1,3 +1,6 @@
+*{
+scroll-behavior: smooth;
+}
 main {
     background-color: rgb(255, 253, 254);
 }
@@ -51,6 +54,7 @@ main {
 
 .departamentos {
     padding-top: 50px;
+    
 }
 
 .departamentos-img {
@@ -86,35 +90,45 @@ main {
     width: 100px;
 }
 
+
+
+
+
+#destaque {
+    
+    margin-top: 100px;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    box-shadow: 4px 3px 9px rgb(0 0 0 / 12%);
+    height: 170px;
+    position: relative;
+}
+#destaque>i{
+    font-size: 50px;
+    
+}
 #destaque p {
-    font-size: 20px;
+    font-size: 25px;
     margin-left: 15px;
-}
+    position: absolute;
 
-#destaque img {
-    width: 30px;
 }
-
-#citacao {
+#citacao{
+    left: 6%;
+    font-size: px;
+}
+#citacao1 {
     font-size: 22px;
     color: rgb(0, 110, 255);
     font-weight: bold;
     text-align: right;
     margin-right: 100px;
+    right: 3%;
+    bottom: 7%;
 }
-
-#destaque {
-    margin-top: 100px;
-    background-color: whitesmoke;
-    box-sizing: border-box;
-    box-shadow: 4px 3px 9px rgb(0 0 0 / 12%);
-    height: 100px;
-}
-
 .layout {
-    margin-left: 150px;
-    margin-right: 150px;
-    /* background-color: whitesmoke; */
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .layout h1 {
@@ -145,12 +159,14 @@ a {
 }
 
 .bloco-produtos {
-    display: flex;
-    width: calc(100%-300px);
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    width: 100%;
+    /* justify-content: space-between; */
     height: 440px;
     background-color: whitesmoke;
-    justify-content: space-around;
 }
+
 
 .bloco-produtos>h2 {
     display: inline;
@@ -182,6 +198,7 @@ li {
 
 }
 
+
 .melhores-marcas h1 {
     font-size: 50px;
     color: rgb(0, 110, 255);
@@ -195,11 +212,10 @@ li {
 }
 
 .marcas {
-    /* display: grid;
-    grid-template-columns: 120px 120px 120px;
-    grid-template-rows: 1fr 1fr; */
-    display: flex;
-    justify-content: space-evenly;
+    padding-left: 15%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: end;
 }
 
 .seu-pet {
@@ -207,6 +223,10 @@ li {
     display: flex;
     justify-content: space-around;
     margin-bottom: 200px;
+}
+
+.seu-pet>.conheca {
+    display: none;
 }
 
 .seu-dog {
@@ -323,7 +343,7 @@ li {
 }
 
 .d2:hover {
-    
+
     transform: scale(1.1);
     box-sizing: border-box;
     box-shadow: 4px 3px 9px rgb(0 0 0 / 12%);
@@ -338,6 +358,7 @@ li {
 }
 
 #promocao {
+
     padding-top: 25px;
     padding-bottom: 25px;
     margin-top: 100px;
@@ -365,9 +386,22 @@ li {
     border-top: 2px solid rgba(0, 101, 233, 0.322);
 }
 
-.produtos-promocao {
+.carousel {
     display: flex;
+
+    align-items: center;
     justify-content: space-around;
+
+}
+
+.produtos-promocao {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding-left: 5%;
+}
+
+.btn-promocao {
+    display: none;
 }
 
 .produto img {
@@ -394,8 +428,8 @@ li {
     border-radius: 5px;
     padding: 20px;
     margin: 25px;
-    margin-top: 50px;
-    margin-bottom: 150px;
+    margin-top: 100px;
+    margin-bottom: 200px;
 }
 
 .bloco-desconto1 {
@@ -405,7 +439,7 @@ li {
 
 }
 
-.divisor-vertical {
+.divisor {
     height: 40px;
     width: 5px;
     border-left: 1px solid rgb(226, 226, 226);
@@ -542,18 +576,7 @@ li {
 }
 
 
-/* @media (min-width: 920px) {
-    .bloco-propaganda{
-        height: 306px;
-        }
-        .btn-produtos {
-            width: 351px;
-        }
-        
-    .produtos-propaganda{
-        padding-top: 42px;
-    }
-} */
+
 
 @media (max-width: 1050px) {
     .bloco-propaganda {
@@ -617,22 +640,185 @@ li {
 
 }
 
-@media (max-width:733px) {
+@media (max-width:900px) {
+    .produtos-promocao {
+        justify-content: end;
+    }
+
+    .produtos-promocao a img {
+        width: 180px;
+        height: 180px;
+
+    }
+
+    #promocao>h1 {
+        font-size: 45px;
+    }
+    .marcas {
+        padding-left: 5%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: end;
+    }
+}
+
+@media (max-width:800px) {
+    .produtos-promocao {
+        justify-content: end;
+    }
+
+    .produtos-promocao a img {
+        width: 150px;
+        height: 150px;
+
+    }
+
+    #promocao>h1 {
+        font-size: 40px;
+    }
+
+    .bloco-desconto1 {
+        font-size: 30px;
+    }
+
+    .bloco-desconto1 span {
+        font-size: 40px;
+    }
+
+    .texto2 p,
+    .texto2 span {
+        font-size: 15px;
+
+    }
+
+    .cupom {
+        font-size: 35px;
+    }
+    .melhores-marcas h1{
+        font-size: 30px;
+    }
+    .marcas img{
+        padding-left: 15%;
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (max-width:734px) {
     .caixa-desconto {
         flex-direction: column;
 
     }
 
-    .divisor-vertical {
-        display: none;
+    .divisor {
+        
+        height: 5px;
+        width: 5%;
+        border-top: 1px solid rgba(32, 136, 255, 0.527);
+        margin: 10px;
+        border-left: none;
     }
 }
 
-@media (max-width:579px) {
+@media (max-width:630px) {
+    .produtos-promocao {
+        justify-content: end;
+    }
+
+    .produtos-promocao a img {
+        width: 110px;
+        height: 110px;
+
+    }
+
+    #promocao>h1 {
+        font-size: 30px;
+    }
+
+    .produto p {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width:580px) {
     .bloco-desconto2 {
         display: block;
         text-align: justify;
     }
+    .marcas img{
+        width: 100px;
+        height: 100px;
+    }
+    .produtos p{
+        font-size: 1px;
+    }
+    
+}
+
+
+
+@media (max-width: 1032px) {
+    @keyframes pet {
+        0% {
+            background-image: url(https://www.kelcopetcare.com.br/wp-content/themes/kelco_sage/dist/images/para-seu-cao_333c762e.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        50% {
+            background-image: url(https://www.kelcopetcare.com.br/wp-content/themes/kelco_sage/dist/images/para-seu-gato_8fb58dbb.png);
+            background-size: cover;
+            background-position: right;
+            background-repeat: no-repeat;
+        }
+        100%{
+            background-image: url(https://www.kelcopetcare.com.br/wp-content/themes/kelco_sage/dist/images/para-seu-cao_333c762e.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
+
+    .seu-pet {
+        animation: pet 8s infinite alternate;
+        transform: translateX(10%);
+        width: 80vw;
+        height: 350px;
+        border-radius: 25px;
+        background-color: whitesmoke;
+        margin-top: 250px;
+        position: relative;
+    }
+
+    .seu-pet>.conheca {
+        display: block;
+        position: absolute;
+        width: 50%;
+        height: 20%;
+        bottom: 10%;
+        right: 5%;
+        font-size: 100%;
+        border: none;
+        cursor: pointer;
+    }
+
+    .seu-cat {
+        display: none;
+    }
+
+    .seu-dog {
+        display: none;
+    }
+
+
+    .btn-promocao {
+        display: block;
+        width: 8%;
+        height: 8%;
+        cursor: pointer;
+        margin: 5px;
+    }
+
 }
 
 @media (max-width:640px) {
@@ -661,5 +847,51 @@ li {
         margin-left: 25%;
         margin-right: 25%;
         margin-top: 10px;
+    }
+}
+
+/*--------------------------Loja------------------------*/
+@media (max-width:1030px) {
+    #destaque p{
+        font-size: 20px;
+        bottom: 29%;
+    }
+    #citacao1{
+        left: 70%;
+        bottom: 1%;
+    }
+
+}
+@media (max-width:680px) {
+    .bloco-produtos p, .bloco-produtos h4{
+        font-size: 8px;
+    }
+ }
+@media (max-width:800px) {
+   #destaque p{
+    font-size: 17px;
+   }
+   #citacao1{
+    bottom: 100%;
+   }
+}
+@media (max-width:1200px) {
+    .bloco-produtos img{
+        width: 100%;
+        height: 100%;
+        
+    }
+    .bloco-produtos{
+        height: 380px;
+    }
+    .bloco-produtos p, .bloco-produtos h4{
+        font-size: 13px;
+    }
+ }
+
+
+@media screen and (max-width: 680px) {
+    .produtos p, .produtos h4{
+        font-size: 11px;
     }
 }
